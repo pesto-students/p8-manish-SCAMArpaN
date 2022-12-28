@@ -24,12 +24,15 @@
 .red {
   background-color: #ff0000;
 }
+
 .green {
   background-color: #027d01;
 }
+
 .yellow {
   background-color: #ffff05;
 }
+
 .blue {
   background-color: #0000ff;
 }
@@ -37,12 +40,15 @@
 .main-box:hover .yellow {
   transform: rotateZ(90deg) translateX(-10vh);
 }
+
 .main-box:hover .red {
-  transform: rotateZ(-90deg) translateX(10vh); 
+  transform: rotateZ(-90deg) translateX(10vh);
 }
+
 .main-box:hover .green {
   transform: rotateZ(-90deg) translateX(-10vh);
 }
+
 .main-box:hover .blue {
   transform: rotateZ(90deg) translateX(10vh);
 }
