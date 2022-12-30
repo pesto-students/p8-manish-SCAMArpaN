@@ -1,0 +1,127 @@
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0%;
+  margin: 0%;
+  background-color: wheat;
+}
+
+header {
+  padding: 0 20%;
+  text-align: center;
+}
+
+article>img {
+  padding: 20px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 420px;
+  max-height: 240px;
+  height: auto;
+}
+
+form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+form>label {
+  display: block;
+  margin: 0.6rem 0px 0.6rem 0px;
+}
+
+select {
+  padding: 0.1em;
+}
+
+input[type='submit']:hover {
+  background-color: whitesmoke;
+}
+
+input {
+  padding: 0.35rem 0.5rem;
+  width: 100%;
+  border: 1px solid #aaa;
+  border-radius: 0.25em;
+  outline: none;
+}
+
+input:focus {
+  box-shadow: 3px 3px 3px 0px #aaaa;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(137, 137, 203);
+  cursor: pointer;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin-top: 5vh;
+  height: 10vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.articles {
+  display: flex;
+  justify-content: center;
+}
+
+.article-col {
+  margin: 10px;
+  padding: 10px;
+}
+
+.form {
+  width: max-content;
+}
+
+.no-shadow,
+.no-shadow:focus {
+  width: max-content;
+  box-shadow: none;
+  border-color: #3ee;
+}
+
+@media all and (max-width: 600px) {
+
+  input[type='radio'],
+  input[type='checkbox'] {
+    width: max-content;
+  }
+
+  input {
+    padding: 5px 10px;
+    width: 80vw;
+  }
+
+  .container {
+    padding: 5px;
+  }
+
+  .articles {
+    flex-direction: column;
+  }
+
+  .form {
+    width: 90vw;
+    padding: 0px 10px;
+  }
+}
