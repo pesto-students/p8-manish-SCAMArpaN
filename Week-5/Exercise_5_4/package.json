@@ -1,8 +1,8 @@
 {
-  "name": "exercise_5_4",
+  "name": "calculator",
   "version": "1.0.0",
   "description": "",
-  "main": "Exercise_5_4.js",
+  "main": "calculator.js",
   "scripts": {
     "test": "jest"
   },
